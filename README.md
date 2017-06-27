@@ -14,4 +14,4 @@ for entry in entries:
     -> new_variable = entry["name_from_bibtex_file"]
 
     add \t{} to line for as many new fields as you add
-       -> print("{}\t{}\t{}".format(doi, title, oa))
+    -> print("{}\t{}\t{}".format(doi, title, oa))
