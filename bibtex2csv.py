@@ -32,5 +32,4 @@ for entry in entries:
     doi = entry["DOI"]
     title = entry["Title"]
     oa = entry["OA"]
-    affiliation = ["Affiliation"]
-    print("{}\t{}\t{}\t{}".format(doi, title, oa, affiliation))
+    print("{}\t{}\t{}".format(doi, title, oa))
